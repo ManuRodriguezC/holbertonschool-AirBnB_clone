@@ -1,0 +1,38 @@
+.places ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.places h1 {
+    position: relative;
+    font-size: 30px;
+    top: 80px;
+    left: 20px;
+}
+
+.places article {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 30px;
+    right: 20px;
+}
+
+.places article li {
+    width: 390px;
+    padding: 20px; 
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.places article li h2 {
+    margin: 0;
+    font-size: 30px;
+}
