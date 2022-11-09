@@ -1,0 +1,123 @@
+.places ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.places h1 {
+    position: relative;
+    font-size: 30px;
+    top: 80px;
+    left: 20px;
+}
+
+.places article {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 30px;
+    right: 20px;
+}
+
+.places article li {
+    width: 390px;
+    padding: 20px; 
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.places article li h2 {
+    margin: 0;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/*Prices of the contens*/
+
+.places article .price_by_night {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 310px;
+    top: -55px;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+}
+
+.places article div h2 {
+    text-align: center;
+    transform: translateY(25%);
+    font-size: 30px;
+    color: #FF5A5F;
+    font-weight: 500;
+}
+
+/*Section imformation*/
+
+.information {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    padding: 5px;
+    top: -40px;
+    border-top: 2px solid #DDDDDD;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.information .number_bathrooms {
+    position: relative;
+    left: 135px;
+}
+
+.information .number_rooms {
+    position: relative;
+    left: 100px;
+}
+
+.information .max_guest {
+    position: relative;
+    left: 60px;
+}
+
+.information .max_guest h2,
+.information .number_rooms h2,
+.information .number_bathrooms h2 {
+    position: relative;
+    top: -15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.places .user h2 {
+    position: relative;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    top: -35px;
+}
+
+.places .description h6 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    height: 160px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    top: -20px;
+}
+
+.places .description {
+    position: relative;
+    top: -20;
+    margin-bottom: -40px;
+}
