@@ -70,6 +70,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: none;
+    color: #FAFAFA;
 }
 
 .locations .popover li a,
@@ -84,7 +85,9 @@
 }
 
 .amenities .popover li {
-    line-height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 10px;
 }
 
 .locations:hover .popover,
